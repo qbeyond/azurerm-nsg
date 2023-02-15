@@ -28,7 +28,10 @@ It's very easy to use!
 | <a name="input_yaml_path"></a> [yaml\_path](#input\_yaml\_path) | n/a | `string` | n/a | yes |
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_groups"></a> [groups](#output\_groups) | n/a |
+| <a name="output_ids"></a> [ids](#output\_ids) | n/a |
 
 ## Resource types
 
