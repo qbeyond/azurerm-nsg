@@ -22,7 +22,10 @@ It's very easy to use!
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | n/a | `any` | n/a | yes |
+| <a name="input_yaml_path"></a> [yaml\_path](#input\_yaml\_path) | n/a | `string` | n/a | yes |
 ## Outputs
 
 No outputs.
