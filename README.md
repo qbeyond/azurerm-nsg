@@ -16,7 +16,9 @@ It's very easy to use!
 
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 3.6.0 |
 
 ## Inputs
 
@@ -24,18 +26,26 @@ No inputs.
 ## Outputs
 
 No outputs.
+
 ## Resource types
 
-No resources.
+| Type | Used |
+|------|-------|
+| [azurerm_network_security_group](https://registry.terraform.io/providers/hashicorp/azurerm/3.6.0/docs/resources/network_security_group) | 1 |
 
+**`Used` only includes resource blocks.** `for_each` and `count` meta arguments, as well as resource blocks of modules are not considered.
 
 ## Modules
 
 No modules.
+
 ## Resources by Files
 
-No resources.
+### main.tf
 
+| Name | Type |
+|------|------|
+| [azurerm_network_security_group.nsg](https://registry.terraform.io/providers/hashicorp/azurerm/3.6.0/docs/resources/network_security_group) | resource |
 <!-- END_TF_DOCS -->
 
 ## Contribute
