@@ -18,7 +18,7 @@ It's very easy to use!
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 3.6.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 3.7.0 |
 
 ## Inputs
 
@@ -37,7 +37,7 @@ It's very easy to use!
 
 | Type | Used |
 |------|-------|
-| [azurerm_network_security_group](https://registry.terraform.io/providers/hashicorp/azurerm/3.6.0/docs/resources/network_security_group) | 1 |
+| [azurerm_network_security_group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_group) | 1 |
 
 **`Used` only includes resource blocks.** `for_each` and `count` meta arguments, as well as resource blocks of modules are not considered.
 
@@ -51,7 +51,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [azurerm_network_security_group.nsg](https://registry.terraform.io/providers/hashicorp/azurerm/3.6.0/docs/resources/network_security_group) | resource |
+| [azurerm_network_security_group.nsg](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_group) | resource |
 <!-- END_TF_DOCS -->
 
 ## Contribute
