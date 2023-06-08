@@ -1,12 +1,3 @@
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "3.6.0"
-    }
-  }
-}
-
 locals {
   yaml = yamldecode(file(var.yaml_path))
   groups = {for group, rules in local.yaml.groups: group => [
