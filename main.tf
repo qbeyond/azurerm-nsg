@@ -3,6 +3,7 @@ locals {
   groups = {for group, rules in local.yaml.groups: group => [
       for rule in rules: {
           name = rule.name
+          description = rule.description
           action = rule.action
           priority = rule.priority
           direction = rule.direction
@@ -28,6 +29,7 @@ resource "azurerm_network_security_group" "nsg" {
       for_each = each.value
       content {
         name                         = security_rule.value.name
+        description                  = security_rule.value.description
         priority                     = security_rule.value.priority
         direction                    = security_rule.value.direction
         access                       = security_rule.value.action
